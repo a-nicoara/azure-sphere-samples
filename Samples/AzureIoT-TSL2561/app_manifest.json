@@ -1,0 +1,15 @@
+{
+  "SchemaVersion": 1,
+  "Name": "AzureIoT-TSL2561",
+  "ComponentId": "819255ff-8640-41fd-aea7-f85d34c491a7",
+  "EntryPoint": "/bin/app",
+  "CmdArgs": [ "0ne000E5715" ],
+  "Capabilities": {
+    "AllowedConnections": [ "global.azure-devices-provisioning.net",
+      "hslu-iot-hub.azure-devices.net" ],
+    "Gpio": [ "$SAMPLE_LED" ],
+    "I2cMaster": [ "$SAMPLE_TSL2561_I2C" ],
+    "DeviceAuthentication": "78761c80-cfe4-4cbf-bad0-2d471528234d"
+  },
+  "ApplicationType": "Default"
+}

@@ -5,9 +5,10 @@
   "EntryPoint": "/bin/app",
   "CmdArgs": [],
   "Capabilities": {
-    "AllowedConnections": [ "global.azure-devices-provisioning.net" ],
+    "AllowedConnections": [ "global.azure-devices-provisioning.net",
+        "hslu-iot-hub.azure-devices.net" ],
     "Gpio": [ "$SAMPLE_BUTTON_1", "$SAMPLE_BUTTON_2", "$SAMPLE_LED" ],
-    "DeviceAuthentication": "00000000-0000-0000-0000-000000000000"
+    "DeviceAuthentication": "78761c80-cfe4-4cbf-bad0-2d471528234d"
   },
   "ApplicationType": "Default"
 }
