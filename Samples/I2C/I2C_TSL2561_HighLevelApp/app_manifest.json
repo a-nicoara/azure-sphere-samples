@@ -1,0 +1,11 @@
+{
+  "SchemaVersion": 1,
+  "Name" : "I2C_TSL2561_HighLevelApp",
+  "ComponentId" : "685f13af-25a5-40b2-8dd8-deadbeefcbd8",
+  "EntryPoint": "/bin/app",
+  "CmdArgs": [],
+  "Capabilities": {
+    "I2cMaster": [ "$SAMPLE_TSL2561_I2C" ]
+  },
+  "ApplicationType": "Default"
+}
